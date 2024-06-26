@@ -54,11 +54,11 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "-d"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "gfa32w3qe"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>

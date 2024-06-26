@@ -14,13 +14,23 @@ if arguments.count < 2 {
 }
 else {
     if arguments[1] == "-c" {
-        let text = arguments[2]
-        let isCaseSensitive = arguments.count > 3 && arguments[3] == "-i"
-        print(compress(text: text, isCaseSensitive: isCaseSensitive))
+        if arguments.count > 2 {
+            let text = arguments[2]
+            let isCaseSensitive = arguments.count > 3 && arguments[3] == "-i"
+            print(compress(text: text, isCaseSensitive: isCaseSensitive))
+        }
+        else {
+            help()
+        }
     }
     else if arguments[1] == "-d" {
-        let text = arguments[2]
-        print(decompress(text: text))
+        if arguments.count > 2 {
+            let text = arguments[2]
+            print(decompress(text: text))
+        }
+        else {
+            help()
+        }
     }
     else {
         help()
