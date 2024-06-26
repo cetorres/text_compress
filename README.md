@@ -1,6 +1,6 @@
 # text_compress
 
-A simple text compression command line tool.
+A simple text compression command line tool made in Swift.
 
 ```sh
 text_compress 1.0
