@@ -2,6 +2,10 @@
 
 A simple text compression command line tool made in Swift.
 
+It just replaces repeated characters with the number of ocurrencies.
+
+For example: `aaaabbbccdeefffaaa` becomes `a4b3c2de2f3a3`
+
 ```sh
 text_compress 1.0
 A simple text compression tool
